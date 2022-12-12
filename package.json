@@ -1,10 +1,10 @@
 {
-  "name": "sapphir-landing-page",
+  "name": "okash-landing-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@tailwindui/react": "^0.1.1",
-    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
     "heroicons": "^0.4.2",
