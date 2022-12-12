@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="p-8 bg-gray-200 space-y-10">
       <div className="flex flex-col items-center justify-center space-y-4">
         <div className="flex items-center justify-center space-x-3">
-          <span className="select-none leading-8 text-transparent bg-gradient-to-r from-blue-500 font-bold text-2xl okash-bg-color bg-clip-text">
+          <span className="select-none leading-8 text-transparent bg-gradient-to-s from-blue-500 font-bold text-2xl okash-bg-color bg-clip-text">
             Okash
           </span>
           <div className="blue-hexagon"></div>
