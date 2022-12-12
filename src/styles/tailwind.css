@@ -1,0 +1,105 @@
+@tailwind base;
+
+::selection {
+  color: rgb(0, 0, 0);
+  background: rgb(179, 248, 239);
+}
+
+html {
+  @apply antialiased;
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.sapphir-bg-color {
+  background-color: #1d52ff;
+}
+
+.blue-hexagon {
+  position: relative;
+  width: 36px;
+  height: 20.78px;
+  background-color: #1d52ff;
+  margin: 10.39px 0;
+}
+
+.blue-hexagon:before,
+.blue-hexagon:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+}
+
+.blue-hexagon:before {
+  bottom: 100%;
+  border-bottom: 10.39px solid #1d52ff;
+}
+
+.blue-hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 10.39px solid #1d52ff;
+}
+
+.green-hexagon {
+  position: relative;
+  width: 36px;
+  height: 20.78px;
+  background-color: #7ff5ce;
+  margin: 10.39px 0;
+}
+
+.green-hexagon:before,
+.green-hexagon:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+}
+
+.green-hexagon:before {
+  bottom: 100%;
+  border-bottom: 10.39px solid #7ff5ce;
+}
+
+.green-hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 10.39px solid #7ff5ce;
+}
+
+@media only screen and (min-width: 1024px) {
+  .green-hexagon {
+    position: relative;
+    width: 42px;
+    height: 30px;
+    background-color: #7ff5ce;
+    margin: 12px 0;
+  }
+
+  .green-hexagon:before,
+  .green-hexagon:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+  }
+
+  .green-hexagon:before {
+    bottom: 100%;
+    border-bottom: 10.39px solid #7ff5ce;
+  }
+
+  .green-hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 10.39px solid #7ff5ce;
+  }
+}

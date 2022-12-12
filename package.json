@@ -1,0 +1,52 @@
+{
+  "name": "okash-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tailwindui/react": "^0.1.1",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "heroicons": "^0.4.2",
+    "postcss-cli": "^8.2.0",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "tailwindcss": "^1.9.6",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/tailwind.output.css -w",
+    "build:css": "postcss src/styles/tailwind.css -o src/styles/tailwind.output.css",
+    "start": "npm-run-all --parallel watch:css start:react",
+    "build": "NODE_ENV=production npm-run-all build:css build:react",
+    "start:react": "react-scripts start",
+    "build:react": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "ie 11",
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
