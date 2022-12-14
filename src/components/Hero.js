@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col space-y-4">
           <div className="">
-            <button className="select-none uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-500 rounded-md font-bold tracking-widest sapphir-bg-color text-white md:px-10 focus:outline-none transition ease-in duration-200 transform hover:scale-105">
+            <button className="select-none uppercase text-xs py-3 px-6 bg-gradient-to-bl from-indigo-500 rounded-md font-bold tracking-widest okash-bg-color text-white md:px-10 focus:outline-none transition ease-in duration-200 transform hover:scale-105">
               Apply now
             </button>
           </div>

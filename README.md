@@ -2,6 +2,9 @@
 
 ### A mobile responsive static page.
 
+Check out the project here:- https://okash.netlify.app
+
+
 #### Tools used:
 
 - [create-react-app](https://create-react-app.dev/)
