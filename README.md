@@ -2,7 +2,7 @@
 
 ### A mobile responsive static page.
 
-Check out the project here:- https://okash.netlify.app
+Check out the project here:- https://okoa.netlify.app
 
 
 #### Tools used:
